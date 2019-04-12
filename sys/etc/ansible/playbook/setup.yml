@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  remote_user: root
+
+
+  roles:
+    - role: geerlingguy.php-versions
+    - role: geerlingguy.php
+    - role: geerlingguy.apache
+    - role: geerlingguy.apache-php-fpm
+    - role: geerlingguy.composer
+    - role: geerlingguy.drush
+    - role: geerlingguy.drupal
